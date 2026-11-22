@@ -1,0 +1,29 @@
+Authentic FM Coach screenshots from automated live testing, 2026-11-21.
+PNG exports use lossless rectangular crops only: no AI generation, retouching,
+replacement text, resizing, or fabricated UI. All sources were 2560x1440.
+Coordinates below are x,y,width,height in source pixels.
+
+chat.png
+  Source: computer-use-20261121/v0728/04-corrected-grounding-retest.png
+  Crop: 2055,122,490,872
+  Shows a live answer distinguishing current settings from conditional changes.
+
+insights.png
+  Source: computer-use-20261121/v0722/insights-expanded-ready.png
+  Crop: 1835,122,710,732
+  Shows within-squad attribute-group averages, not external player ratings.
+
+tactical-fit.png
+  Source: computer-use-20261121/v0722/mid-switch-provisional.png
+  Crop: 2055,122,490,494
+  Shows provisional assessment and per-tactic read status during a slot change.
+  This image does not show completed tactical-fit advice.
+
+player.png
+  Source: computer-use-20261121/v0722/Tonali-quality-expanded.png
+  Crop: 1835,122,710,846
+  Shows Sandro Tonali's derived quality profile from the test career.
+
+Earlier tested captures illustrate UI retained in v0.7.30; these images are
+not all from a single version/session. Full-screen source captures were removed
+during cleanup; only the verified coach-panel crops are distributed.

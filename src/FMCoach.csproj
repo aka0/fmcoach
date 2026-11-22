@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>FMCoach</AssemblyName>
+    <Version>0.7.30</Version>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>disable</Nullable>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="../ref/BepInEx.Core.dll" Private="false" />
+    <Reference Include="../ref/BepInEx.Unity.IL2CPP.dll" Private="false" />
+    <Reference Include="../ref/Il2CppInterop.Runtime.dll" Private="false" />
+    <Reference Include="../ref/Il2CppInterop.Common.dll" Private="false" />
+    <Reference Include="../interop/*.dll" Private="false" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="coach_faces_32x40.rgba" LogicalName="FMCoach.coach_faces_32x40.rgba" />
+    <EmbeddedResource Include="coach_system_prompt.txt" LogicalName="FMCoach.coach_system_prompt.txt" />
+  </ItemGroup>
+</Project>

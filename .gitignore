@@ -1,0 +1,46 @@
+# Credentials and local configuration
+.key
+.key.*
+*.key
+.env
+.env.*
+!.env.example
+*.cfg
+*.local.*
+.local/
+
+# Locally supplied game / loader assemblies; do not redistribute
+/ref/
+/interop/
+
+# Generated builds, packages and editor files
+/builds/
+/dist/
+**/bin/
+**/obj/
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.pdb
+*.dll
+*.exe
+*.zip
+*.tgz
+*.bak
+*.log
+__pycache__/
+
+# Runtime snapshots, chat hooks, save games and full-screen captures
+/dumps/
+/test/results/
+/test/snapshot/
+/test/review/out/
+/test/*.txt
+/test/*.json
+/test/*.fm
+/docs/screenshot-sources/
+*.fm
+Thumbs.db
+Desktop.ini

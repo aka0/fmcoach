@@ -1,0 +1,11 @@
+0 neutral
+1 idle_left
+2 idle_right
+3 blink
+4 thinking
+5 pleased
+6 disgusted
+7 worried
+8 angry
+9 smug
+10 disapproving
